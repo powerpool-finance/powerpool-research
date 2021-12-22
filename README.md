@@ -8,4 +8,13 @@ Description here
 
 ### YLA
 
-Description here
+Finished
+
+### LUSD
+
+To be recalculated on recent data
+
+### TORN
+
+Ongoing
+
