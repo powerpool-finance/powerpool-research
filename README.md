@@ -50,15 +50,15 @@ In the third strategy, an algorithm was worked out to minimize losses by means o
 
 The comparison of strategies showed the effectiveness of the third strategy - the algorithm for minimizing losses.
 
-### Vaults price calculatoins
+### Vaults price calculatoins *(completed)*
 
 On this research we compare growthing TVL and Prices of diffrent Vaults on 180 days period.
 
-### HydraDX random swap model
+### HydraDX random swap model *(completed)*
 
 In this repo there are libs for HydraDX idea and may help you to research the interaction with Pool with Base token and unnormalized weights updating after swap. In file HydraDX-randon-swap there is the example of use.
 
-### Model of price determination of Indexcoop Vaults
+### Model of price determination of Indexcoop Vaults *(completed)*
 
 In this repo there are the python lib with formules of Indexcoop Vaults
 
