@@ -1,15 +1,10 @@
 # Research Repository for Powerpool Finance Products
 
-Current research projects:
+This repository is devoted to variuos research objectives.
 
-### Binance Smart Chain (BSCDEFI)
+The list of past and ongoing research is given below.
 
-In progress
-
-### YLA *(in progress)*
-
-Yearn Lazy Ape Vault composition optimization.
-
+## Past Research:
 
 ### LUSD *(completed)*
 
@@ -22,6 +17,11 @@ staBAL generates BAL rewards
 
 The reward tokens are sold for the main assets and restaked.
 
+## Current Research:
+
+### YLA *(in progress)*
+
+Yearn Lazy Ape Vault composition optimization.
 
 ### TORN *(in progress)*
 
