@@ -38,3 +38,31 @@ Total users' expenses = Gas + Community fee + Relayer fee
 Community fee is deposited directly to xTORN - special Vault for TORN holders.
 
 
+### Balancer Window *(completed)*
+
+In this study, the possibility of minimizing losses during pool rebalancing was studied. 
+The effectiveness of three strategies was studied for a period of 400 days with a 50-day start step and a 20-day strategy duration. 
+An arbitrageur robot was programmatically modeled. 
+
+In the first strategy, the pool composition was changed immediately in one time step. 
+In the second strategy, the weights were changed and the pool was rebalanced in equal parts within 20 days. 
+In the third strategy, an algorithm was worked out to minimize losses by means of an uneven change in weights depending on the price movement that occurred in the market. 
+
+The comparison of strategies showed the effectiveness of the third strategy - the algorithm for minimizing losses.
+
+### Vaults price calculatoins *(completed)*
+
+On this research we compare growthing TVL and Prices of diffrent Vaults on 180 days period.
+
+### HydraDX random swap model *(completed)*
+
+In this repo there are libs for HydraDX idea and may help you to research the interaction with Pool with Base token and unnormalized weights updating after swap. In file HydraDX-randon-swap there is the example of use.
+
+### Model of price determination of Indexcoop Vaults *(completed)*
+
+In this repo there are the python lib with formules of Indexcoop Vaults
+
+
+
+
+
