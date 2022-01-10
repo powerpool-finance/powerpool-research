@@ -50,6 +50,10 @@ In the third strategy, an algorithm was worked out to minimize losses by means o
 
 The comparison of strategies showed the effectiveness of the third strategy - the algorithm for minimizing losses.
 
+### Simulator for Balancer Windows Rebalances *(completed)*
+
+On this repository we put files with market prices for 2 days 1 minute timeframe, libraries and file for simulating losses due to rebalancing pool. 
+
 ### Vaults price calculatoins *(completed)*
 
 On this research we compare growthing TVL and Prices of diffrent Vaults on 180 days period.
