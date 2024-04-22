@@ -90,14 +90,14 @@ contract DCA is Ownable(msg.sender) {
     }
 
     function resolver() public returns (bool, bytes4){
-        if (temporalResolver() && priceResolver()){
+        if (temporalResolver() && priceResolver() && isRichEnough()){
             return (true, this.performSwap.selector);
         }
         return (false, this.performSwap.selector);
     }
 
     function performSwap() public {
-        if (!temporalResolver() || !priceResolver()){
+        if (!temporalResolver() || !priceResolver() || !isRichEnough()){
             revert("Can't swap");
         }
         if (PARAMS.highLow){
